@@ -157,7 +157,7 @@ function App() {
             <div key={post.id} className="post">
               <h3>{post.title}</h3>
               <p>{post.content}</p>
-              <button onClick={() => populatePost(post.id, post.title, post.content)}>Edit</button>
+              <button onClick={() => populatePost(post.id, post.title, post.content)}>Edit</button>&nbsp;
               <button onClick={() => deletePost(post.id)}>Delete</button>
             </div>
           )
